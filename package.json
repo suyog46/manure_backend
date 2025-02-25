@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "env-cmd .env nodemon src/index.js"
+    "dev": "env-cmd -f .env nodemon src/index.js",
+    "start": "nodemon src/index.js"
   },
   "author": "",
   "license": "ISC",
